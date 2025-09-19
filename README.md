@@ -27,7 +27,7 @@ It is built using a **ResNet34 CNN model** trained on a custom dataset and deplo
 1. Clone the repo:
 
 ````
-git clone https://github.com/your-username/image-quality-analyzer.git
+git clone https://github.com/subashrathlavath/image-quality-analyzer.git
 cd image-quality-analyzer 
 ````
 2. Install dependencies:
