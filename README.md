@@ -46,7 +46,6 @@ streamlit run app.py
 ├── model.pth            # Trained ResNet34 model
 ├── requirements.txt     # Dependencies
 ├── README.md            # Project documentation
-└── demo.mp4             # Demo video (optional, if you want to keep locally)
 ```
 🛠️ Tech Stack
 ```
