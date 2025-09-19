@@ -19,7 +19,7 @@ It is built using a **ResNet34 CNN model** trained on a custom dataset and deplo
 
  Watch the demo video below:
 ![Demo GIF](demo.gif)
-![watch](https://youtu.be/I3FEKGYdayQ)
+![watch]([https://youtu.be/I3FEKGYdayQ](https://youtu.be/I3FEKGYdayQ?si=vZ-VfPIEQJFU_Lxg))
 ---
 
 ## ⚙️ Installation
