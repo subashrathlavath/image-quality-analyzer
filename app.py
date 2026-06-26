@@ -17,7 +17,6 @@ def load_model():
 
 model = load_model()
 
-# Define transforms (same as training)
 transform = transforms.Compose([
     transforms.Resize((224,224)),
     transforms.ToTensor(),
@@ -38,10 +37,8 @@ if uploaded_file is not None:
     image = Image.open(uploaded_file).convert("RGB")
     st.image(image, caption="Uploaded Image", use_container_width=True)
 
-    # Preprocess
     img_tensor = transform(image).unsqueeze(0)
 
-    # Prediction
     with torch.no_grad():
         outputs = model(img_tensor)
         probs = torch.nn.functional.softmax(outputs, dim=1)
